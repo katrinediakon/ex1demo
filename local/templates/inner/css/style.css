@@ -789,7 +789,7 @@ textarea {
 }
 .btn,
 button,
-input[type="submit"] {
+ {
   height: 35px;
   line-height: 33px;
   padding: 0 38px;
@@ -806,6 +806,27 @@ input[type="submit"] {
   text-shadow: 0 1px 0 #fff;
   letter-spacing: -0.025em;
   font-family: 'HelveticaNeueCyrBold', sans-serif;
+}
+.button_vhod {
+  background-color: none;
+
+  background: none;
+
+  outline: none;
+
+  border: 0;
+
+  background: transparent;
+
+  text-decoration: underline;
+
+  color: v;
+
+  color: black;
+
+  size: 0.7vw;
+
+  font-size: 0.7vw;
 }
 .owl-dot {
   display: inline-block;
@@ -1988,10 +2009,10 @@ hr + .catalog-box {
   padding-bottom: 70px;
   font-size: 14px;
   line-height: 20px;
-  
+
   border-radius: 3px;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
-  
+
 }
 .main-slider-box p {
   margin: 0;
@@ -2247,7 +2268,7 @@ hr + .catalog-box {
 }
 
 .opins-slider-box .section-title-block hr{
- margin-top: 10px; 
+ margin-top: 10px;
 }
 
 .opins-slider-box .title-block h1,
@@ -2674,7 +2695,7 @@ hr + .catalog-box {
 
 .review-block {
 	color:#4b4b4b;
-	
+
 	font-size:14px;
 	margin-top:30px;
 	min-height:85px;
@@ -2706,7 +2727,7 @@ hr + .catalog-box {
 }
 
 .review-block .review-autor {
-	float: right; 
+	float: right;
 	font-style: italic;
 	margin-top: 15px;
 }
@@ -2773,4 +2794,3 @@ hr + .catalog-box {
 .nav .menu .color-green{
   color: #00ff43;
 }
-
